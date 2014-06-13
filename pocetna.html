@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Booking</title>
+	<link rel="stylesheet" href="css/stil.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/grid.css">
+
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:400,700|Exo+2:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Kite+One&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,300italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700' rel='stylesheet' type='text/css'>
+
+	<!-- jQuery -->
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+
+	<!-- jQuery Easing -->
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+
+	<!-- Functions -->
+	<script type="text/javascript" src="js/functions.js"></script>
+</head>
+<body>
+<section class="objedini row">
+	<header class="header">
+	<section class="pozicija row">
+			<div class="search-form row">
+			<form class="form-container " action="">
+				<input placeholder="Pretrazi" type="text" class="search-field" value="Type search text here..." />
+				<div class="submit-container">
+					<input type="submit" value="" class="submit" />
+				</div>
+			</form>
+			<div class="popup ">
+				<p>Morate upisati grad za pretraživanje.</p>
+			</div>
+		</div>
+	</section>
+	</header>
+	<div class="odvojak"></div>
+	<section class="container row">
+		<div class="lijevo2 ">
+		<p>Odaberite grad:</p>
+			<select name="" id="" style="width:150px; height:27px;">
+				<option value="0">Grad</option>
+				<option value="1">Zagreb</option>
+				<option value="2">Zadar</option>
+				<option value="3">Dubrovnik</option>
+			</select>
+		<p>Sortiraj po:</p>
+			<select name="" id="" style="width:150px; height:27px;">
+				<option value="0">Cijena</option>
+				<option value="1">Ocjena</option>
+				
+			</select>
+		<p>Cijena:</p>
+		<input placeholder="OD" type="number" style="width:50px;" >
+		<input placeholder="DO" type="number" style="width:50px; margin-left:38px;" >
+		<input type="submit" value="Pretraži" style="padding:10px; width:150px; margin-top:20px; background:rgb(240,84,18);">
+		</div>
+
+	<div class="desno2 ">
+		<?php 
+			$con=mysqli_connect("localhost","root","root","smjestaj");
+
+			// Check connection
+			if (mysqli_connect_errno()) {
+			  echo "Failed to connect to MySQL: " . mysqli_connect_error();
+			}
+
+			mysqli_close($con);
+		?>
+	</div>
+	</section>
+
+	<footer class="footer"></footer>
+	</section>
+</body>
+</html>

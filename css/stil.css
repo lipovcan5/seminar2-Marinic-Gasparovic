@@ -1,0 +1,531 @@
+.header{
+	background: #028A9E;
+	width: 100%;
+	height: 200px;
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 0 20px rgba(0,0,0,0.3);
+	box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.objedini{
+	box-shadow: 0 0 10px #111;
+}
+
+.footer{
+	height: 30px;
+}
+body{
+	background: #DCDDD8;
+}
+.pozicija{
+	padding-top: 75px;
+
+	padding-left: 150px;
+
+}
+
+.dugmad a :hover{
+	background: #FF700D;
+}
+
+
+.search-form {
+	position: relative;
+	float: left;
+	padding-top: 300px;
+	width: 430px;
+	height: 50px;
+	margin-top: 100px;
+	padding: 1px 0 0 0;
+	/*background: url(images/form-bg.png) top center no-repeat;*/
+}
+
+.form-container {
+	width: 553px;
+	height: 49px;
+	padding: 0;
+	overflow: hidden;
+	text-align: left;
+	background: #f8f8f8;
+	border: 1px solid #ccc;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px; 
+	border-radius: 8px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#eeeeee));
+	background-image: -webkit-linear-gradient(top, #f8f8f8, #eeeeee);
+	background-image: -moz-linear-gradient(top, #f8f8f8, #eeeeee);
+	background-image: -ms-linear-gradient(top, #f8f8f8, #eeeeee);
+	background-image: -o-linear-gradient(top, #f8f8f8, #eeeeee);
+	background-image: linear-gradient(top, #f8f8f8, #eeeeee);
+
+}
+
+.search-field {
+	float: left;
+	width: 450px;
+	height: 34px;
+	margin: 6px 0 0 8px;
+	padding: 0 8px;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 16px;
+	color: #888;
+	font-style: italic;
+	font-weight: 400;
+	background: #fff;
+	border: 1px solid #ccc;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px; 
+	border-radius: 8px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#ffffff));
+	background-image: -webkit-linear-gradient(top, #f5f5f5, #ffffff);
+	background-image: -moz-linear-gradient(top, #f5f5f5, #ffffff);
+	background-image: -ms-linear-gradient(top, #f5f5f5, #ffffff);
+	background-image: -o-linear-gradient(top, #f5f5f5, #ffffff);
+	background-image: linear-gradient(top, #f5f5f5, #ffffff);
+	-moz-box-shadow: 0 1px 1px #e2e2e2 inset, 0 1px 0 #fff;
+	-webkit-box-shadow: 0 1px 1px #e2e2e2 inset, 0 1px 0 #fff;
+	box-shadow: 0 1px 1px #e2e2e2 inset, 0 1px 0 #fff;
+}
+
+.search-field:focus {
+	outline: 0;
+	color: #666;
+	border-color: #aaa;
+	-moz-box-shadow: 0 1px 1px #dadada inset;
+	-webkit-box-shadow: 0 1px 1px #dadada inset;
+	box-shadow: 0 1px 1px #dadada inset;
+}
+
+.submit-container {
+	float: left;
+	width: 60px;
+	height: 32px;
+	margin: 7px 0 0 7px;
+	padding: 0;
+	cursor: pointer;
+	background: #e63c0d;
+	border: 1px solid #d62700;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px; 
+	border-radius: 6px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f55f15), to(#e63c0d));
+	background-image: -webkit-linear-gradient(top, #f55f15, #e63c0d);
+	background-image: -moz-linear-gradient(top, #f55f15, #e63c0d);
+	background-image: -ms-linear-gradient(top, #f55f15, #e63c0d);
+	background-image: -o-linear-gradient(top, #f55f15, #e63c0d);
+	background-image: linear-gradient(top, #f55f15, #e63c0d);
+	-moz-box-shadow: 0 1px 1px #fa8e1f inset, 0 1px 0 #fff;
+	-webkit-box-shadow: 0 1px 1px #fa8e1f inset, 0 1px 0 #fff;
+	box-shadow: 0 1px 1px #fa8e1f inset, 0 1px 0 #fff;
+}
+
+.submit-container:hover, .submit-container:focus {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#e63c0d), to(#f55f15));
+	background-image: -webkit-linear-gradient(top, #e63c0d, #f55f15);
+	background-image: -moz-linear-gradient(top, #e63c0d, #f55f15);
+	background-image: -ms-linear-gradient(top, #e63c0d, #f55f15);
+	background-image: -o-linear-gradient(top, #e63c0d, #f55f15);
+	background-image: linear-gradient(top, #e63c0d, #f55f15);
+	-moz-box-shadow: 0 1px 1px #f36215 inset, 0 1px 0 #fff;
+	-webkit-box-shadow: 0 1px 1px #f36215 inset, 0 1px 0 #fff;
+	box-shadow: 0 1px 1px #f36215 inset, 0 1px 0 #fff;
+}
+
+.submit-container:active {
+	outline: 0;
+	-moz-box-shadow: 0 1px 6px #e4340b inset;
+	-webkit-box-shadow: 0 1px 6px #e4340b inset;
+	box-shadow: 0 1px 6px #e4340b inset;
+}
+
+.submit {
+	float: left;
+	width: 60px;
+	height: 32px;
+	/*margin: 0;*/
+	padding: 0;
+	cursor: pointer;
+	border: 0px solid #000;
+	background: url(images/magnifier.png) 20px 6px no-repeat;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px; 
+	border-radius: 6px;
+}
+
+.popup {
+	width: 250px;
+	/*margin: 3px 0 0 45px;*/
+	padding: 1px 0 0 0;
+	background: url(images/popup-bg.png) 10px 0 no-repeat;
+	font-family: Georgia, serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #fff;
+	text-align: left;
+}
+
+.popup p {
+	/*margin: 8px 0 0 0;*/
+	padding: 8px 14px 9px 14px;
+	background: #3d3d3d;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px; 
+	border-radius: 6px;
+	-moz-box-shadow: 0 2px 3px rgba(0,0,0,.2);
+	-webkit-box-shadow: 0 2px 3px rgba(0,0,0,.2);
+	box-shadow: 0 2px 3px rgba(0,0,0,.2);
+}
+
+
+.container{
+	height: auto;
+	width: 100%;
+
+	
+}
+
+.lijevo{
+	margin: 0;
+	position: relative;
+	float: left;
+	height: 100%;
+	width: 40%;
+	text-align: center;
+	border-right: 3px solid #028A9E;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.lijevo2{
+	margin: 0;
+	position: relative;
+	float: left;
+	height: 100%;
+	width: 20%;
+	border-right: 3px solid #028A9E;
+	font-family: 'Ubuntu', sans-serif;
+	margin-left: 30px;
+}
+
+.lijevo3{
+	margin: 0;
+	position: relative;
+	float: left;
+	height: 100%;
+	width: 30%;
+	border-right: 3px solid #028A9E;
+	font-family: 'Ubuntu', sans-serif;
+	margin-left: 30px;
+}
+
+
+.lijevo >p{
+	text-align: left;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-family: 'Exo 2', sans-serif;
+}
+
+.desno{
+	position: relative;
+	float: right;
+	height: 100%;
+	width: 59%;
+}
+
+.desno2{
+	position: relative;
+	float: right;
+	height: 100%;
+	width: 69%;
+}
+
+.prijava{
+	
+	width: 200px;
+	text-align: center;
+	padding: 10px;
+	background: rgb(240,84,18);
+	box-shadow: 0 0 3px #111;
+	margin-left: 20px;
+	text-decoration: none;
+}
+
+
+a{
+	text-decoration: none;
+	color: black;
+	font-family: 'Exo 2', sans-serif;
+}
+.registracija{
+	width: 200px;
+	text-align: center;
+	padding: 30px;
+	margin-top:30px;
+	background: rgb(240,84,18);
+	box-shadow: 0 0 3px #111;
+}
+
+.dugmad{
+	position: relative;
+	text-align: center;
+	float: inherit;
+	margin-right: 20%;
+	padding-top: 70px;
+}
+
+.odvojak{
+	height: 100px;
+	
+}
+
+
+.prva{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.jedan{
+	position: relative;
+	float: left;
+	padding: 20px;
+}
+
+.tekst1{
+	position: relative;
+	float: left;
+	padding-top: 20px;
+
+}
+
+.druga{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.dva{
+	position: relative;
+	float: left;
+	padding: 20px;
+}
+
+.tekst2{
+	position: relative;
+	float: left;
+	padding-top: 20px;
+
+}
+
+.treca{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.tri{
+	position: relative;
+	float: left;
+	padding: 20px;
+}
+
+.tekst3{
+	position: relative;
+	float: left;
+	padding-top: 20px;
+
+}
+
+.cetvrta{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.cetiri{
+	position: relative;
+	float: left;
+	padding: 20px;
+}
+
+.tekst4{
+	position: relative;
+	float: left;
+	padding-top: 20px;
+
+}
+
+.peta{
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.pet{
+	position: relative;
+	float: left;
+	padding: 20px;
+}
+
+.tekst5{
+	position: relative;
+	float: left;
+	padding-top: 20px;
+
+}
+
+.desno2 >a :hover{
+	background: #028A9E;
+	opacity: 0.9;
+}
+
+/*slider*/
+
+
+/* http://www.menucool.com */
+
+/*slider frame*/
+#sliderFrame 
+{
+    width:620px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background:#028A9E;
+    box-shadow: 0 0 10px #111;
+} 
+
+#slider, #slider div.sliderInner {
+    width:610px;height:306px;/* Must be the same size as the slider images */
+}
+
+#slider {
+	background:black url(images/loading.gif) no-repeat 50% 50%;
+	position:relative;
+	margin:0 auto; /*center-aligned*/
+    transform: translate3d(0,0,0);
+}
+
+/* the link style (if an image is wrapped in a link) */
+#slider a.imgLink, #slider .video {
+	z-index:2;
+	position:absolute;
+	top:0px;left:0px;border:0;padding:0;margin:0;
+	width:100%;height:100%;
+}
+#slider .video {
+	background:transparent url(video.png) no-repeat 50% 50%;
+}
+
+/* Caption styles */
+#slider div.mc-caption-bg, #slider div.mc-caption-bg2 {
+	position:absolute;
+	width:400px;
+	height:auto;
+	padding:10px 0;
+	left: 100px; /*if the caption needs to be aligned from right, specify by right instead of left. i.e. right:20px;*/
+	bottom: -40px;/*if the caption needs to be aligned from top, specify by top instead of bottom. i.e. top:150px;*/
+	z-index:3;
+	overflow:hidden;
+	font-size:0;
+}
+#slider div.mc-caption-bg {
+    /* NOTE: Its opacity, when background is not transparent, is to be set through the sliderOptions.captionOpacity setting in the js-image-slider.js file.*/
+	background:transparent;/* or any other colors such as White, or: background:none; */
+}
+#slider div.mc-caption-bg2 {
+    background:none;
+}
+#slider div.mc-caption {
+	font:bold 13px/16px Arial;
+	color:#ccc;
+	z-index:4;
+	text-align:center;
+    background:none;
+}
+#slider div.mc-caption a { 
+	color:#66FFFF;
+}
+
+
+/* ------ built-in navigation bullets wrapper that is relative to the #slider ------*/
+#slider div.navBulletsWrapper  {
+	display:none;
+}
+
+/* --------- Others ------- */
+
+#slider div.loading 
+{
+    width:100%; height:100%;
+    background:transparent url(loading.gif) no-repeat 50% 50%;
+    filter: alpha(opacity=60);
+    opacity:0.6;
+    position:absolute;
+    left:0;
+    top:0; 
+    z-index:9;
+}
+
+#slider img, #slider>b, #slider a>b {
+	position:absolute; border:none; display:none;
+}
+
+#slider div.sliderInner {
+	overflow:hidden; 
+	-webkit-transform: rotate(0.000001deg);/* fixed the Chrome not crop border-radius bug*/
+	position:absolute; top:0; left:0;
+}
+
+#slider>a, #slider video, #slider audio {display:none;}
+
+
+/* -- thumbnails -- */
+#thumbs 
+{
+    margin-top:50px;
+    text-align:center;
+    font-size:0;
+}
+#thumbs .thumb 
+{
+    display:inline-block;
+    *display:inline;zoom:1;/*IE6, IE7 hack*/
+    margin:0 1px;/*this determins the distance between each thumbnail*/
+    border:1px solid #333;
+    background:black;
+}
+
+#thumbs .thumb img{border:1px solid #555; cursor:pointer; width:70px; height:44px; opacity:0.5;filter:alpha(opacity=50);}
+#thumbs .thumb-on img{border:1px solid #999; opacity:1;filter:alpha(opacity=100);}
+
+
+/*-----------------------------------*/
+
+
+.lijeviTekst{
+	position: relative;
+	float: left;
+	width: 40%;
+	padding-top: 72px;
+}
+
+.rezervacija{
+	position: relative;
+	float: left;
+	width: 60%;
+	padding-top: 40px;
+	text-align: center;
+}
+
+.rezervacija > input{
+}
+
+.povratak{
+	height: 35px;
+	width: 150px;
+	background: rgb(240,84,18);
+	text-align: center;
+	padding-top: 10px;
+	margin-top: -70px;
+	margin-bottom: 70px;
+}
