@@ -1,0 +1,4 @@
+Za bazu:
+
+username: root
+password: root
